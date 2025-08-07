@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "SoftDev": "softdev-42d61",
+    "default": "softdev-42d61"
+  },
+  "targets": {},
+  "etags": {}
+}

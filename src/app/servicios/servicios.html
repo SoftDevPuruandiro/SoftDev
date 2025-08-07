@@ -1,0 +1,15 @@
+<section class="container my-5">
+  <h2 class="text-center mb-4">Nuestros Servicios</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let servicio of servicios">
+      <div class="card h-100">
+        <img [src]="servicio.imagen" class="card-img-top" [alt]="servicio.titulo">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ servicio.titulo }}</h5>
+          <p class="card-text">{{ servicio.descripcion }}</p>
+          <!-- <a [href]="servicio.link" class="btn btn-primary" *ngIf="servicio.link">Ver más</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

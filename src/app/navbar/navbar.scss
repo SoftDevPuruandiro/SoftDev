@@ -1,0 +1,12 @@
+.navbar-softdev {
+  background-color: #12457c !important; // Azul Bootstrap o el que tú prefieras
+  color: white;
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .navbar-brand img {
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+  }
+}
